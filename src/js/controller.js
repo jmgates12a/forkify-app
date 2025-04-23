@@ -170,6 +170,10 @@ const controlAddRecipeIngredient = function (ingValues) {
   return true;
 };
 
+const newFeature = function () {
+  console.log('Welcome to the application');
+};
+
 //Publisher / Subscriber patern
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -183,7 +187,7 @@ const init = function () {
   resultsView.addHandlerSortOption(controlSortSelected);
   resultsView.addHandlerSortGo(controlSortRun);
   addRecipeIngrView.addHandlerAddRecipeIngr(controlAddRecipeIngredient);
-  console.log('Welcome');
+  newFeature();
 };
 
 init();
