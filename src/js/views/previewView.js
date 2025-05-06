@@ -1,5 +1,5 @@
 import View from './View.js';
-// import icons from 'url:../../img/icons.svg';
+import ingIcon from 'url:../../img/ingredients.png';
 const icons = require('url:../../img/icons.svg');
 
 class PreviewView extends View {
@@ -32,7 +32,7 @@ class PreviewView extends View {
                 <use href="${icons}#icon-clock"></use>
               </svg>
               <span>${this._data.cookingTime}</span>
-                <img src="ingredients.32a42ac4.png" alt="Test" />
+                <img src="${ingIcon}" alt="i for ingredients" />
               <span>${
                 this._data.ingredNbr || this._data.ingredients.length
               }</span>
