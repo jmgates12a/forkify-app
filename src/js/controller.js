@@ -174,7 +174,7 @@ const newFeature = function () {
   console.log('Welcome to the application');
 };
 
-//Publisher / Subscriber patern
+//Publisher / Subscriber pattern
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
